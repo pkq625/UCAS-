@@ -42,8 +42,8 @@ function createFloatingWindow() {
     textarea.style.height = '150px';
     textarea.style.resize = 'none'; 
     textarea.placeholder = '请输入测评用语(>=15字)不输入则使用默认字符串...';
-    // 创建按钮
-    var button = document.createElement('button');
+
+    var button = document.createElement('button');
     button.textContent = '开始测评';
     button.style.marginTop = '10px'; 
     button.onclick = function() {
